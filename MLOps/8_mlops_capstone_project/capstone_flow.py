@@ -576,6 +576,10 @@ class GreenTaxiCapstoneFlow(FlowSpec):
 
     @step
     def retrain_candidate(self):
+        self.candidate_training_path_used = ""
+        self.candidate_training_rows = 0
+        self.candidate_extra_training_rows = 0
+
         if self.batch_rejected:
             print("Skipping candidate retraining because batch was rejected.")
             self.candidate_status = "skipped"
@@ -750,11 +754,13 @@ class GreenTaxiCapstoneFlow(FlowSpec):
                 client.set_model_version_tag(self.model_name, self.candidate_version, "role", "champion")
                 client.set_model_version_tag(self.model_name, self.candidate_version, "validation_status", "approved")
                 client.set_model_version_tag(self.model_name, self.candidate_version, "promotion_reason", "candidate passed promotion gate")
+                old_champion_version = self.champion_version
                 self.promotion_recommended = "true"
                 self.promotion_status = "promoted"
                 self.promotion_reason = "candidate improved RMSE enough to pass promotion gate"
+                self.previous_champion_version = old_champion_version
                 self.promoted_version = self.candidate_version
-                self.previous_champion_version = self.champion_version
+                self.champion_version = self.candidate_version
             else:
                 client.set_model_version_tag(self.model_name, self.candidate_version, "validation_status", "rejected")
                 client.set_model_version_tag(self.model_name, self.candidate_version, "decision_reason", "candidate did not pass promotion gate")
@@ -837,6 +843,10 @@ class GreenTaxiCapstoneFlow(FlowSpec):
         mlflow.set_tracking_uri(self.tracking_uri)
         mlflow.set_experiment(EXPERIMENT_NAME)
 
+        candidate_training_path_used = getattr(self, "candidate_training_path_used", "")
+        candidate_training_rows = getattr(self, "candidate_training_rows", 0)
+        candidate_extra_training_rows = getattr(self, "candidate_extra_training_rows", 0)
+
         run_name = f"integrity_{self.integrity_status}"
 
         self.decision = {
@@ -901,9 +911,9 @@ class GreenTaxiCapstoneFlow(FlowSpec):
             "promotion_reason": self.promotion_reason,
             "promoted_version": self.promoted_version,
             "previous_champion_version": self.previous_champion_version,
-            "candidate_training_path_used": self.candidate_training_path_used,
-            "candidate_training_rows": self.candidate_training_rows,
-            "candidate_extra_training_rows": self.candidate_extra_training_rows,
+            "candidate_training_path_used": candidate_training_path_used,
+            "candidate_training_rows": candidate_training_rows,
+            "candidate_extra_training_rows": candidate_extra_training_rows,
             "inference_status": self.inference_status,
             "prediction_rows": self.prediction_rows,
             "predictions_artifact_path": self.predictions_artifact_path,
@@ -971,8 +981,8 @@ class GreenTaxiCapstoneFlow(FlowSpec):
             mlflow.log_metric("rmse_candidate", self.rmse_candidate)
             mlflow.log_metric("r2_candidate", self.r2_candidate)
             mlflow.log_metric("candidate_improvement_pct", self.candidate_improvement_pct)
-            mlflow.log_metric("candidate_training_rows", self.candidate_training_rows)
-            mlflow.log_metric("candidate_extra_training_rows", self.candidate_extra_training_rows)
+            mlflow.log_metric("candidate_training_rows", candidate_training_rows)
+            mlflow.log_metric("candidate_extra_training_rows", candidate_extra_training_rows)
 
             artifact_dir = Path("artifacts")
             artifact_dir.mkdir(exist_ok=True)
