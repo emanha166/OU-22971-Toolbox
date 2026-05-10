@@ -187,7 +187,7 @@ All decisions, metrics, parameters, and data artifacts are logged to MLflow for 
 ### Important Tags
 - `flow_stage`: Pipeline stage name
 - `integrity_status`: "passed" or "failed"
-- `soft_monitoring_status`: "ok" or "warn"
+- `nannyml_warn`: "true" or "false" soft monitoring warning flag
 - `retrain_recommended`: "true" or "false"
 - `promotion_recommended`: "true" or "false"
 - `promotion_status`: "promoted", "rejected", "not_applicable", or "skipped"
@@ -255,7 +255,7 @@ This run:
 ### August Promotion Run (Promotion)
 - Integrity gate: PASSED
 - NannyML soft gate: WARN (drift detected, but monitored)
-- Champion evaluation: RMSE increased on August batch
+- Champion evaluation: RMSE increased by about 38.55% on the August batch
 - Retrain decision: YES
 - Candidate training: Trained on January + April data, with 481,291 total training rows after cleaning
 - Candidate performance: candidate_improvement_pct = +17.27% (strong improvement)
