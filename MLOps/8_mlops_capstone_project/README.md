@@ -244,11 +244,11 @@ This run:
 
 ### April Monitoring Run (Rejection)
 - Integrity gate: PASSED (no hard failures)
-- NannyML soft gate: WARN (drift detected in trip_distance and fare_amount)
-- Champion evaluation: RMSE increased by ~15% on April batch
+- NannyML soft gate: WARN (drift detected, especially in trip_distance)
+- Champion evaluation: RMSE increased by about 31.46% on the April batch
 - Retrain decision: YES (degradation exceeds threshold)
 - Candidate training: Trained on January data only
-- Candidate performance: candidate_improvement_pct = -5.2% (negative)
+- Candidate performance: candidate_improvement_pct = -0.52% (negative)
 - Promotion gate: REJECTED (candidate did not improve)
 - Outcome: Champion remains unchanged, no promotion
 
@@ -257,7 +257,7 @@ This run:
 - NannyML soft gate: WARN (drift detected, but monitored)
 - Champion evaluation: RMSE increased on August batch
 - Retrain decision: YES
-- Candidate training: Trained on January + April data (~8,000 combined rows)
+- Candidate training: Trained on January + April data, with 481,291 total training rows after cleaning
 - Candidate performance: candidate_improvement_pct = +17.27% (strong improvement)
 - Promotion gate: APPROVED (candidate_improvement_pct > min_candidate_improvement)
 - Outcome: Version 7 promoted to @champion, Model Registry updated
