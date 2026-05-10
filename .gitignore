@@ -52,3 +52,14 @@ test_logs/
 # Preserve bundled teaching assets and reference outputs.
 !Distributed_DL/4_ddp_on_cloud_gpus/runpod_output/*
 !Distributed_DL/4_ddp_on_cloud_gpus/colab_output/*
+
+# Local VS Code settings
+MLOps/.vscode/
+
+# Metaflow local runtime artifacts
+MLOps/8_mlops_capstone_project/.metaflow/
+MLOps/8_mlops_capstone_project/__pycache__/
+MLOps/8_mlops_capstone_project/artifacts/
+MLOps/8_mlops_capstone_project/mlflow_tracking/
+MLOps/8_mlops_capstone_project/mlruns/
+*.db
