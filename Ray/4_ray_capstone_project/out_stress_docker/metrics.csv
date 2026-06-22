@@ -1,0 +1,9 @@
+tick_id,mode,tick_latency_s,mean_zone_latency_s,max_zone_latency_s,max_mean_latency_ratio,completed_before_finalization,fallback_count,zones_finalized,finalization_reason,completion_target,max_inflight_zones
+0,async,5.013676725000096,0.0,0.0,0.0,0,8,8,timeout,6,4
+1,async,1.0481922160001886,0.0,0.0,0.0,0,8,8,timeout,6,4
+2,async,1.0317080620002343,1.3046666632969087e-05,1.5473000075871823e-05,1.185973437596034,3,5,8,timeout,6,4
+3,async,1.0129144980001001,0.0,0.0,0.0,0,8,8,timeout,6,4
+4,async,1.02807096000015,1.0245999874314293e-05,1.3702999694942264e-05,1.3373999475926528,3,5,8,timeout,6,4
+5,async,1.0325851260004129,0.0,0.0,0.0,0,8,8,timeout,6,4
+6,async,1.0613841079998565,7.94166665703718e-06,9.416000011697179e-06,1.1856453334456665,3,5,8,timeout,6,4
+7,async,1.039549056999931,0.0,0.0,0.0,0,8,8,timeout,6,4

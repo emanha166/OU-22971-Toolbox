@@ -1,0 +1,354 @@
+[
+  {
+    "zone_id": 74,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 1.2804000107280444e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 74,
+      "tick_id": 0
+    }
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 1.1900000117748277e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.5625,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 95,
+      "tick_id": 0
+    }
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 8.154999704856891e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.8125,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 75,
+      "tick_id": 0
+    }
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 1.5473000075871823e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.5,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 74,
+      "tick_id": 2
+    }
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 9.670000054029515e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 2,
+    "baseline_count": 0.8125,
+    "recent_mean": 0.5,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 75,
+      "tick_id": 2
+    }
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 1.3996999769005924e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.5625,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 95,
+      "tick_id": 2
+    }
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 2.000442885999746,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 43,
+      "tick_id": 0
+    }
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 2.000328921000346,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 43,
+      "tick_id": 2
+    }
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 1.1518000064825173e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 82,
+      "tick_id": 2
+    }
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 6.789000053686323e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.1875,
+    "recent_mean": 0.25,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 74,
+      "tick_id": 4
+    }
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 1.0245999874314293e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.5,
+    "recent_mean": 0.75,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 75,
+      "tick_id": 4
+    }
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 1.3702999694942264e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 95,
+      "tick_id": 4
+    }
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 2.0001446770002076,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 166,
+      "tick_id": 2
+    }
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 2.0001244239997504,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 43,
+      "tick_id": 4
+    }
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 8.709000212547835e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 82,
+      "tick_id": 4
+    }
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 7.889000244176714e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.1875,
+    "recent_mean": 0.25,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 74,
+      "tick_id": 6
+    }
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 6.5199997152376454e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 2,
+    "baseline_count": 0.5,
+    "recent_mean": 0.75,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 75,
+      "tick_id": 6
+    }
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 9.416000011697179e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.5,
+    "report_ack": {
+      "accepted": true,
+      "reason": "reported",
+      "zone_id": 95,
+      "tick_id": 6
+    }
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 2.0003495229998407,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 166,
+      "tick_id": 4
+    }
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 2.0003931739997824,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 43,
+      "tick_id": 6
+    }
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 7.89500018072431e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 82,
+      "tick_id": 6
+    }
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 2.000373888000013,
+    "score_sleep_s": 2.0,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0,
+    "report_ack": {
+      "accepted": false,
+      "reason": "closed_tick",
+      "zone_id": 166,
+      "tick_id": 6
+    }
+  }
+]

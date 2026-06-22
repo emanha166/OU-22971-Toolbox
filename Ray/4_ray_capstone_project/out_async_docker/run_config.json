@@ -1,0 +1,57 @@
+{
+  "command": "run",
+  "prepared_dir": "prepared_small",
+  "output_dir": "out_async_docker",
+  "mode": "async",
+  "max_inflight_zones": 4,
+  "tick_timeout_s": 1.0,
+  "completion_fraction": 0.75,
+  "slow_zone_fraction": 0.25,
+  "slow_zone_sleep_s": 0.5,
+  "fallback_policy": "always_previous",
+  "ray_address": null,
+  "seed": 7,
+  "start_tick_id": 0,
+  "max_ticks": 8,
+  "slow_zones": [
+    41,
+    82
+  ],
+  "prepared_metadata": {
+    "reference_parquet": "data\\raw\\green_tripdata_2024-01.parquet",
+    "replay_parquet": "data\\raw\\green_tripdata_2024-02.parquet",
+    "reference_month": "2024-01",
+    "replay_month": "2024-02",
+    "pickup_datetime_columns": {
+      "reference": "lpep_pickup_datetime",
+      "replay": "lpep_pickup_datetime"
+    },
+    "pickup_zone_columns": {
+      "reference": "PULocationID",
+      "replay": "PULocationID"
+    },
+    "active_zones": [
+      74,
+      75,
+      95,
+      43,
+      166,
+      82,
+      41,
+      97
+    ],
+    "n_zones": 8,
+    "tick_minutes": 15,
+    "seed": 7,
+    "n_reference_ticks": 2976,
+    "n_replay_ticks": 2784,
+    "crosscheck": {
+      "sample_start": "2024-02-01T01:00:00",
+      "sample_end": "2024-02-01T07:00:00",
+      "prepared_total": 62,
+      "direct_total": 62,
+      "row_mismatches": 0,
+      "ok": true
+    }
+  }
+}

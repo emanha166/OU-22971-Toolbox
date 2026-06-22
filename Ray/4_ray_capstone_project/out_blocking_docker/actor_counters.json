@@ -1,0 +1,66 @@
+[
+  {
+    "zone_id": 74,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 75,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 95,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 43,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 166,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 82,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 41,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  },
+  {
+    "zone_id": 97,
+    "duplicate_reports": 0,
+    "late_reports": 0,
+    "duplicate_writes": 0,
+    "fallbacks": 0,
+    "accepted_decisions": 8
+  }
+]

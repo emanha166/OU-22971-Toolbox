@@ -1,0 +1,642 @@
+[
+  {
+    "zone_id": 74,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 1.2602999959199224e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 8.123000043269712e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.8125,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 9.39800020205439e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.5625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 1.0275000022375025e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 1.0140000085812062e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 0.5003957560002164,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 0.5003553500000635,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 0,
+    "decision": "OK",
+    "task_latency_s": 1.548000000184402e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 6.9210000219754875e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 2.963499991892604e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.8125,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 6.8190001911716536e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.5625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 6.415999905584613e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 6.609999672946287e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 0.5007813759998498,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 0.5005910179997954,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 1,
+    "decision": "OK",
+    "task_latency_s": 1.0692000159906456e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 1.0
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 8.859999979904387e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.5
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 1.074900001185597e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 2,
+    "baseline_count": 0.8125,
+    "recent_mean": 0.5
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 5.905999842070742e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.5625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 7.654000000911765e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 7.533999905717792e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 0.500269107999884,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 0.5002416070001345,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 2,
+    "decision": "OK",
+    "task_latency_s": 1.3207999927544734e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.0,
+    "recent_mean": 0.5
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 8.862000413500937e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.3333333333333333
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 8.81000005392707e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.8125,
+    "recent_mean": 1.0
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 7.857399987187819e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.5625,
+    "recent_mean": 0.3333333333333333
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 7.486999948014272e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 9.748999673320213e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 0.5008449790002487,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.25,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 0.5002391329999227,
+    "score_sleep_s": 0.5,
+    "observed_count": 1,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 3,
+    "decision": "OK",
+    "task_latency_s": 3.341800038469955e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.6666666666666666
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 8.306999916385394e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.1875,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 7.6199999057280365e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.5,
+    "recent_mean": 0.75
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 6.346999725792557e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 7.311999979719985e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 6.754999958502594e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 0.5002605959998618,
+    "score_sleep_s": 0.5,
+    "observed_count": 1,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 0.5004929130000164,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 4,
+    "decision": "OK",
+    "task_latency_s": 5.904999852646142e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.5
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 7.519000064348802e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 1,
+    "baseline_count": 0.1875,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 6.9030002123326994e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.5,
+    "recent_mean": 1.0
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 6.031000339135062e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.5
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 6.6349998633086216e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 6.319000021903776e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 0.5007194610002443,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 0.5003753679998226,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 5,
+    "decision": "OK",
+    "task_latency_s": 1.0798999937833287e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 4.2485999983910006e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.1875,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 7.584999821119709e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 2,
+    "baseline_count": 0.5,
+    "recent_mean": 0.75
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 9.458000022277702e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.5
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 7.251000170072075e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 5.708999651687918e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 0.5005578159998549,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 0.5002662829997462,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 6,
+    "decision": "OK",
+    "task_latency_s": 8.369000170205254e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 74,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 8.859999979904387e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.1875,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 75,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 6.699999630654929e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.5,
+    "recent_mean": 0.75
+  },
+  {
+    "zone_id": 95,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 3.20300000566931e-05,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 43,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 8.828999852994457e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 166,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 9.08899983187439e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0625,
+    "recent_mean": 0.0
+  },
+  {
+    "zone_id": 82,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 0.5001827470000535,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.3125,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 41,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 0.5003473780002423,
+    "score_sleep_s": 0.5,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.25
+  },
+  {
+    "zone_id": 97,
+    "tick_id": 7,
+    "decision": "OK",
+    "task_latency_s": 8.90199999048491e-06,
+    "score_sleep_s": 0.0,
+    "observed_count": 0,
+    "baseline_count": 0.0,
+    "recent_mean": 0.0
+  }
+]

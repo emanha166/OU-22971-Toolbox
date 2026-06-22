@@ -1,0 +1,90 @@
+[
+  {
+    "tick_id": 0,
+    "mode": "blocking",
+    "tick_latency_s": 6.788996365000003,
+    "mean_zone_latency_s": 0.1251021406250743,
+    "max_zone_latency_s": 0.5003957560002164,
+    "max_mean_latency_ratio": 3.9998976316470936,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 1,
+    "mode": "blocking",
+    "tick_latency_s": 0.5350545109999985,
+    "mean_zone_latency_s": 0.12517993587493947,
+    "max_zone_latency_s": 0.5007813759998498,
+    "max_mean_latency_ratio": 4.000492351267487,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 2,
+    "mode": "blocking",
+    "tick_latency_s": 0.5391349720002836,
+    "mean_zone_latency_s": 0.12507057824996082,
+    "max_zone_latency_s": 0.500269107999884,
+    "max_mean_latency_ratio": 3.999894419613757,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 3,
+    "mode": "blocking",
+    "tick_latency_s": 0.544118115999936,
+    "mean_zone_latency_s": 0.1251538765000646,
+    "max_zone_latency_s": 0.5008449790002487,
+    "max_mean_latency_ratio": 4.001833526906298,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 4,
+    "mode": "blocking",
+    "tick_latency_s": 0.5368839960001424,
+    "mean_zone_latency_s": 0.12509946937490213,
+    "max_zone_latency_s": 0.5004929130000164,
+    "max_mean_latency_ratio": 4.000759679484515,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 5,
+    "mode": "blocking",
+    "tick_latency_s": 0.5368316410003899,
+    "mean_zone_latency_s": 0.12514237937506323,
+    "max_zone_latency_s": 0.5007194610002443,
+    "max_mean_latency_ratio": 4.001198183227299,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 6,
+    "mode": "blocking",
+    "tick_latency_s": 0.5351687919996948,
+    "mean_zone_latency_s": 0.12511311962492755,
+    "max_zone_latency_s": 0.5005578159998549,
+    "max_mean_latency_ratio": 4.000841938083396,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  },
+  {
+    "tick_id": 7,
+    "mode": "blocking",
+    "tick_latency_s": 0.5375299870001982,
+    "mean_zone_latency_s": 0.1250755668749548,
+    "max_zone_latency_s": 0.5003473780002423,
+    "max_mean_latency_ratio": 4.000360665968184,
+    "completed_before_finalization": 8,
+    "fallback_count": 0,
+    "zones_finalized": 8
+  }
+]

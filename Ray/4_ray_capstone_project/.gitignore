@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/
+out_smoke_docker/
+
+capstone.py
+main_starter_backup.py
+
+.ray/
+.DS_Store
